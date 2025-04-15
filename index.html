@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -56,4 +56,98 @@
         });
     </script>
 </body>
-</html></div>
+</html></div> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio HTML CSS JS</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="myData.js"></script>
+    
+</head>
+<body>
+    <header>
+        <!-- <img src="profile-pic.jpg" alt="Profile Picture">
+        <h1>Pallavi Bhoyar</h1>
+        <p>React Native Developer | ReactJs | Frontend Developer</p> -->
+        <div class="container">
+            <nav class="navbar">
+                <img src="logo" alt="Profile Picture" class="logo">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>React Native Developer | ReactJs | Frontend Developer</p>
+                <h1>Hi, I am Pallavi Bhoyar</h1>
+                <a href="#projects" class="btn">View Projects</a>
+            </div>
+
+        </div>
+    </header>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <section>
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm a passionate web developer with experience in creating beautiful and functional websites. I love coding, designing, and solving problems.
+        </p>
+    </section> -->
+
+    <!-- <section>
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>A brief description of your project goes here.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>A brief description of your project goes here.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>A brief description of your project goes here.</p>
+            </div>
+        </div>
+    </section> -->
+
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Add smooth scrolling animation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html></div> 
