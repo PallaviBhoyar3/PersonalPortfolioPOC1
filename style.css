@@ -852,6 +852,16 @@ animation: hoverAnimation 3s ease-in-out infinite;
       top: 5%;
       right: 5%;
     }
+    .card h1{
+      font-size: 20px;
+      position: absolute;
+      margin: 0;
+      bottom: 90%;
+      text-align: center;
+      left: 5%;
+      z-index: 1;
+      color: lightgray
+    }
     .card video{
       width: 100%;
     }
